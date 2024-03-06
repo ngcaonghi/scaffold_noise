@@ -116,11 +116,6 @@ def persistence_centrality(hs_average):
         - numpy.ndarray: The persistence centrality of the input scaffold.
     """
     return np.sum(hs_average, axis=-1) / np.sum(hs_average)
-def persistence_centrality(
-        hs_average # group average persistence homological scaffold
-    ):
-
-    return np.sum(hs_average, axis=-1) / np.sum(hs_average)
 
 
 def degree_centrality(fc_average):
